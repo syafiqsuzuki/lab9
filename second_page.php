@@ -1,6 +1,15 @@
 <?php
 
-session_start(); echo "<html>";
+session_start(); 
+echo "<html>";
+
+$sid = session_id();
+
+echo "Session ID returned by session_id(): ".$sid. "\n";
+
+Ssid= SID;
+
+echo "Session ID returned by SID: ".$sid."\n";
 
 SmyLogin = $_SESSION["myLogin"];
 
